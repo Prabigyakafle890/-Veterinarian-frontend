@@ -3,7 +3,7 @@ import { LoginForm } from "../features/auth/components/LoginForm";
 export const LoginPage = () => {
   return (
     <div className="flex min-h-screen w-full bg-white font-sans">
-      {/* LEFT SECTION: Branding & Hero Image */}
+     
       <div className="relative hidden lg:flex lg:w-1/2 bg-[#1a4a5e] items-center justify-center overflow-hidden">
        
         <img
@@ -12,9 +12,8 @@ export const LoginPage = () => {
           className="absolute inset-0 h-full w-full object-cover opacity-50 mix-blend-overlay"
         />
         
-        {/* Overlay Content */}
         <div className="relative z-10 px-16 xl:px-24 text-white">
-          {/* Logo Placeholder */}
+         
           <div className="mb-12 flex items-center gap-4">
              <div className="h-12 w-12 bg-white/20 rounded-xl backdrop-blur-lg flex items-center justify-center border border-white/30 shadow-xl">
                 <span className="text-xs font-black tracking-tighter">AVG</span>
@@ -34,7 +33,6 @@ export const LoginPage = () => {
             A centralized platform for managing talent across the American Veterinary Group network.
           </p>
           
-          {/* Decorative element */}
           <div className="mt-12 flex gap-2">
             <div className="h-1.5 w-12 bg-[#2da1db] rounded-full"></div>
             <div className="h-1.5 w-4 bg-white/20 rounded-full"></div>
@@ -43,9 +41,9 @@ export const LoginPage = () => {
         </div>
       </div>
 
-      {/* RIGHT SECTION: The Login Interface */}
+    
       <div className="flex w-full flex-col justify-center items-center px-6 md:px-16 lg:w-1/2 bg-slate-50/30">
-        {/* Mobile-only logo (shows only when the left panel is hidden) */}
+       
         <div className="lg:hidden mb-12 flex items-center gap-2">
           <div className="h-8 w-8 bg-[#1a4a5e] rounded-lg flex items-center justify-center text-white text-[10px] font-bold">
             AVG
@@ -55,7 +53,7 @@ export const LoginPage = () => {
 
         <LoginForm />
         
-        {/* Footer legal text */}
+      
         <p className="mt-12 text-xs text-slate-400">
           &copy; 2026 American Veterinary Group. All rights reserved.
         </p>

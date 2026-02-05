@@ -15,7 +15,7 @@ export const LoginForm = () => {
 
   return (
     <div className="max-w-md w-full">
-      {/* Header section  */}
+     
       <div className="text-center mb-10">
         <h2 className="text-4xl font-semibold text-slate-800 tracking-tight">
           Sign In
@@ -26,7 +26,7 @@ export const LoginForm = () => {
       </div>
 
       <form className="space-y-6" onSubmit={handleSubmit}>
-        {/* Email Field */}
+       
         <div className="space-y-2">
           <label className="block text-sm font-bold text-slate-700 uppercase tracking-wider">
             Email
@@ -41,7 +41,7 @@ export const LoginForm = () => {
           />
         </div>
 
-        {/* Password Field */}
+     
         <div className="space-y-2">
           <label className="block text-sm font-bold text-slate-700 uppercase tracking-wider">
             Password
@@ -56,7 +56,7 @@ export const LoginForm = () => {
           />
         </div>
 
-        {/* Submit Button  */}
+        
         <button
           type="submit"
           disabled={isPending}
@@ -65,7 +65,7 @@ export const LoginForm = () => {
           {isPending ? "Signing in..." : "Sign In"}
         </button>
 
-        {/* Forgot Password Link */}
+        
         <div className="mt-6 text-center">
           <a href="#" className="text-sm font-semibold text-[#2da1db] hover:underline">
             Forgot password?
